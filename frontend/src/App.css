@@ -1,0 +1,19 @@
+.wrapper {
+  width: 50%;
+  margin: 100px auto auto auto;
+}
+
+.searchWrapper select {
+  font-size: 20px;
+  width: 200px;
+  height: 39px;
+  vertical-align: top;
+}
+
+.searchWrapper input {
+  width: 400px;
+  font-size: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(100,100,100);
+  margin-right: 15px;
+}
