@@ -36,26 +36,6 @@ class App extends Component {
   }
 
   render() {
-    const data = {
-      name: "mainpackage",
-      version: "0.1",
-      dependencies: [
-        {
-          name: "something",
-          version: 123,
-          dependencies: [
-            { name: "a", version: 123, dependencies: [] },
-            { name: "b", version: 456, dependencies: [] }
-          ]
-        },
-        {
-          name: "somethingelse",
-          version: "987",
-          dependencies: []
-        }
-      ]
-    };
-
     return (
       <div className="wrapper">
           <DependenSearch selectVersion={this.selectVersion} setPackage={this.setPackage} />
