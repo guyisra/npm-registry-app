@@ -4,15 +4,13 @@
   "private": true,
   "dependencies": {
     "deep-rename-keys": "^0.2.1",
-    "dependensee": "^1.0.2",
+    "dependensee": "^2.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
-    "react-tree-graph": "^3.1.0",
-    "react-treeview": "^0.4.7"
+    "react-scripts": "1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

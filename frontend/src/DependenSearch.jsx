@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import './App.css';
+
 
 class PackageInput extends Component {
   constructor(props) {
@@ -29,7 +29,7 @@ class PackageInput extends Component {
   };
 
   render() {
-    return <input type="text" onKeyPress={this._handleKeyPress} />;
+    return <input type="text" placeholder="search for a npm module" onKeyPress={this._handleKeyPress} />;
   }
 }
 

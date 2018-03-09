@@ -1,4 +1,4 @@
-const dependensee = require("dependensee");
+const dependensee = require("../lib/dependensee");
 const request = require('request-promise')
 const express = require("express");
 const router = express.Router();

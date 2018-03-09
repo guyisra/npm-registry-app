@@ -1472,10 +1472,6 @@ clone@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.3.tgz#298d7e2231660f40c003c2ed3140decf3f53085f"
 
-clone@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.1.tgz#d217d1e961118e3ac9a4b8bba3285553bf647cdb"
-
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -1847,14 +1843,6 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-d3-ease@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/d3-ease/-/d3-ease-1.0.3.tgz#68bfbc349338a380c44d8acc4fbc3304aa2d8c0e"
-
-d3-hierarchy@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/d3-hierarchy/-/d3-hierarchy-1.1.5.tgz#a1c845c42f84a206bcf1c01c01098ea4ddaa7a26"
-
 d@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
@@ -1989,9 +1977,9 @@ depd@~1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
 
-dependensee@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/dependensee/-/dependensee-1.0.2.tgz#53bb9f1651c730d63f959f078e4a3ab2d4606ce8"
+dependensee@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/dependensee/-/dependensee-2.1.0.tgz#b881e7212f3b60674108aae476ea8320f533dd26"
   dependencies:
     bluebird "^3.5.1"
     lodash "^4.17.5"
@@ -5419,7 +5407,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.6.0:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
@@ -5622,22 +5610,6 @@ react-scripts@1.1.1:
     whatwg-fetch "2.0.3"
   optionalDependencies:
     fsevents "^1.1.3"
-
-react-tree-graph@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-tree-graph/-/react-tree-graph-3.1.0.tgz#b27a691da964ff8fc5ab8c890d209a766fabe197"
-  dependencies:
-    clone "^2.1.1"
-    core-js "^2.5.0"
-    d3-ease "^1.0.3"
-    d3-hierarchy "^1.1.5"
-    prop-types "^15.5.7"
-
-react-treeview@^0.4.7:
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/react-treeview/-/react-treeview-0.4.7.tgz#f647e04f70496eb11fb0912c35187e80eb60d458"
-  dependencies:
-    prop-types "^15.5.8"
 
 react@^16.2.0:
   version "16.2.0"

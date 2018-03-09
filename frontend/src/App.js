@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './App.css'
 import DependenTree from './DependenTree'
 import DependenSearch from './DependenSearch'
-import Tree from 'react-tree-graph'
 
 
 class App extends Component {
